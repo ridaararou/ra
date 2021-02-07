@@ -6111,3 +6111,17 @@ section {
     transform: translate3d(0, -4px, 0);
   }
 }
+
+header {
+  overflow: hidden;
+  position: relative;
+}
+
+@media (max-width: 767px) {
+  .back-square {
+    right: -6rem;
+    top: -8rem;
+    width: 19rem;
+    height: 15rem;
+  }
+}
